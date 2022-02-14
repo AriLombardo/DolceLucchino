@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DolceLucchino</title>
     <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+    <link rel="stylesheet" type="text/css" href="CSS/animate.min.css">
 
-
+    <script src="CSS/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </head>
 
 <!--PAGINA DE INICIO DEL SITIO WEB-->
@@ -18,9 +22,11 @@
     <header class="header">
         <div>
             <!--MARCA LETRAS-->
-            <h1 id="titulo">
-                <a href="index.html">DOLCE LUCCHINO</a>
-            </h1>
+            <div class="wow animate__animated animate__fadeInUp">
+                <h1 id="titulo">
+                    <a href="index.html">DOLCE LUCCHINO</a>
+                </h1>
+            </div>
 
             <!--MARCA LOGO Y REDES-->
             <div class="logoyredes">
@@ -52,7 +58,7 @@
     </header>
     <div class="centro">
         <h2 class="centroindex">Tentate con estas promos!</h2>
-        <div align = "center">
+        <div align="center">
 
             <a href="pages/Promo1.html"><img src="img/Pan dulce con chips.jpg" alt="Pan dulce con chips" height="270"
                     width="270"></a>
@@ -60,6 +66,7 @@
 
         </div>
     </div>
+
 
 
 </body>
