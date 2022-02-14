@@ -34,8 +34,18 @@ body {
 
 
 /*ESTILO GRILLA*/
-/* NO PUEDO HACERLA FUNCIONAR
 
+
+.grilla {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 0.5fr repeat(2, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+grid-template-areas: "header header header" ". centro ." ". footer .";
+}
+
+/*
 #grilla {
     display: grid;
     grid-template-columns: 25% auto 25%;
@@ -45,20 +55,21 @@ body {
     ". footer ."
     ;
 }
+*/
 
 
-header {
+.header {
     grid-area: header;
 }
 
-centrodepagina {
+.centro {
     grid-area: centro;
 }
 
-footer {
+.footer {
     grid-area: footer;
 }
-*/
+
 
 
 /*ESTILO TITULO*/
@@ -170,4 +181,18 @@ footer {
     
 }
 
+/* "TENTATE CON ESTAS PROMOS" */
 
+.centroindex {
+    font-family: 'Asap Condensed', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    display: block;
+    margin: 22px auto;
+    width: 300px;
+    font-weight: bold;
+    text-align: center;
+    top: 50px;
+
+}
