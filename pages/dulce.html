@@ -5,17 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DolceLucchino</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../CSS/estilo.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/animate.min.css">
 
+    <script src="../CSS/wow.min.js"></script>
 
+    <script>
+        new WOW().init();
+    </script>
 </head>
 
+<!--PAGINA DE INICIO DEL SITIO WEB-->
+
+
 <body class="grilla">
+
     <header class="header">
         <div>
-            <h1 id="titulo">
-                <a href="../index.html">DOLCE LUCCHINO</a>
-            </h1>
+            <!--MARCA LETRAS-->
+            <div class="wow animate__animated animate__fadeInUp">
+                <h1 id="titulo">
+                    <a href="../index.html">DOLCE LUCCHINO</a>
+                </h1>
+            </div>
+
+            <!--MARCA LOGO Y REDES-->
             <div class="logoyredes">
                 <a href="../index.html"><img src="../img/logo marca.jpg" height="125" width="125"></a>
                 <br>
@@ -30,43 +46,46 @@
         <br>
         <div>
             <br>
+
+            <!--OPCIONES DE COMPRA-->
             <ul class="menu">
 
-                <li> <a href="dulce.html">Dolce</a></li>
-                <li> <a href="salato.html">Salato</a></li>
-                <li> <a href="desayuno.html">Desayunos</a></li>
-                <li> <a href="picada.html">Picadas</a></li>
+                <li> <a href="../pages/dulce.html">Dolce</a></li>
+                <li> <a href="../pages/salato.html">Salato</a></li>
+                <li> <a href="../pages/desayuno.html">Desayunos</a></li>
+                <li> <a href="../pages/picada.html">Picadas</a></li>
+
 
             </ul>
         </div>
     </header>
+    <div class="centro">
+        <div align="center">
 
+            <h1>Las cositas dulces más dulces de la capital</h1>
+            <h3>Preparadas por nuestro chef especialista en pastelería</h3>
+            <h4>Para arrancar las mañanas y acompañar el mate de la tarde.</h4>
+            <img src="../img/pan dulce relleno.jpg" alt="Pan relleno" height="250" width="250">
 
-    <div class="centro" align="center">
+            <p>
+            <h2>¡Pan dulce relleno de cholate, una delicia!</h2>
+            <h3>no te pierdas esta oferta:</h3>
+            <h2>¡$950!</h2>
+            <h4>Para arrancar las mañanas y acompañar el mate de la tarde.</h4>
+            <a href="compra.html"><input type="submit" value="COMPRAR"></a>
 
-        <h1>Las cositas dulces más dulces de la capital</h1>
-        <h3>Preparadas por nuestro chef especialista en pastelería</h3>
-        <h4>Para arrancar las mañanas y acompañar el mate de la tarde.</h4>
-        <img src="../img/pan dulce relleno.jpg" alt="Pan relleno" height="250" width="250">
+            </p>
 
-        <p>
-        <h2>¡Pan dulce relleno de cholate, una delicia!</h2>
-        <h3>no te pierdas esta oferta:</h3>
-        <h2>¡$950!</h2>
-        <h4>Para arrancar las mañanas y acompañar el mate de la tarde.</h4>
-        <a href="compra.html"><input type="submit" value="COMPRAR"></a>
+            <img src="../img/budin de vainilla.jpg" alt="budin de vainilla" height="250" width="250">
 
-        </p>
+            <p>
+            <h2>¡Budin de vainilla caserito!</h2>
+            <h3>no te pierdas esta oferta:</h3>
+            <h2>¡$650!</h2>
+            <a href="compra.html"><input type="submit" value="COMPRAR"></a>
 
-        <img src="../img/budin de vainilla.jpg" alt="budin de vainilla" height="250" width="250">
-
-        <p>
-        <h2>¡Budin de vainilla caserito!</h2>
-        <h3>no te pierdas esta oferta:</h3>
-        <h2>¡$650!</h2>
-        <a href="compra.html"><input type="submit" value="COMPRAR"></a>
-
-        </p>
+            </p>
+        </div>
     </div>
 
 </body>
@@ -76,9 +95,9 @@
     <ul>
 
         <li> <a href="../index.html">Inicio</a></li>
-        <li> <a href="quienessomos.html">¿Quiénes somos?</a></li>
-        <li> <a href="mediosdepago.html">Medios de pago</a></li>
-        <li> <a href="consulta.html">Envianos tu consulta</a></li>
+        <li> <a href="../pages/quienessomos.html">¿Quiénes somos?</a></li>
+        <li> <a href="../pages/mediosdepago.html">Medios de pago</a></li>
+        <li> <a href="../pages/consulta.html">Envianos tu consulta</a></li>
 
 
     </ul>

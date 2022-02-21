@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,700;1,700&display=swap');
 
 
-/*MEDIAS QUERIES*/
+/*MEDIAS QUERIES
 
 @media screen and (min-width: 320px) and (max-width: 768px) 
 {
@@ -13,10 +13,7 @@
 
 
 }
-
-@media screen and (min-windth: 1200px) {
-
-}
+*/
 
 /* CUERPO DE PAGINA */
 
@@ -35,27 +32,16 @@ body {
 
 /*ESTILO GRILLA*/
 
-
 .grilla {
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-template-rows: 0.5fr repeat(2, 1fr);
-grid-column-gap: 0px;
-grid-row-gap: 0px;
-grid-template-areas: "header header header" ". centro ." ". footer .";
-}
-
-/*
-#grilla {
     display: grid;
-    grid-template-columns: 25% auto 25%;
-    grid-template-rows: 25% 50% 25%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 170px repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
     grid-template-areas: "header header header" 
-    ". centro ." 
-    ". footer ."
-    ;
-}
-*/
+    " . centro . " 
+    " . footer . ";
+    }
 
 
 .header {
@@ -81,8 +67,8 @@ grid-template-areas: "header header header" ". centro ." ". footer .";
     text-decoration: none;
     list-style: none;
     padding: 0;
-    display: block;
-    margin: 22px auto;
+    display: flex;
+    margin: auto auto;
     width: 300px;
     font-weight: bold;
     text-align: center;
@@ -95,7 +81,7 @@ grid-template-areas: "header header header" ". centro ." ". footer .";
 
 .logoyredes {
     position: absolute;
-    top: 22px;
+    top: 15px;
 }
 
 .redes {
@@ -196,3 +182,5 @@ grid-template-areas: "header header header" ". centro ." ". footer .";
     top: 50px;
 
 }
+
+
